@@ -70,7 +70,7 @@ class MessageInformationDataFactory @Inject constructor(private val timelineDate
                 memberName = formattedMemberName,
                 showInformation = showInformation,
                 orderedReactionList = event.annotations?.reactionsSummary
-                        ?.filter { isSingleEmoji(it.key) }
+                        //?.filter { isSingleEmoji(it.key) }
                         ?.map {
                             ReactionInfoData(it.key, it.count, it.addedByMe, it.localEchoEvents.isEmpty())
                         },
