@@ -632,7 +632,7 @@
     <string name="settings_app_info_link_title">Application info</string>
     <string name="settings_app_info_link_summary">Show the application info in the system settings.</string>
     <string name="settings_add_3pid_confirm_password_title">Confirm your password</string>
-    <string name="settings_add_3pid_flow_not_supported">You can\'t do this from Riot mobile</string>
+    <string name="settings_add_3pid_flow_not_supported">You can\'t do this from RPG Chat mobile</string>
     <string name="settings_add_3pid_authentication_needed">Authentication is required</string>
 
 
@@ -742,9 +742,9 @@
     <string name="settings_background_sync">Background synchronization</string>
     <string name="settings_background_fdroid_sync_mode">Background Sync Mode (Experimental)</string>
     <string name="settings_background_fdroid_sync_mode_battery">Optimized for battery</string>
-    <string name="settings_background_fdroid_sync_mode_battery_description">Riot will sync in background in way that preserves the device’s limited resources (battery).\nDepending on your device resource state, the sync may be deferred by the operating system.</string>
+    <string name="settings_background_fdroid_sync_mode_battery_description">RPG Chat will sync in background in way that preserves the device’s limited resources (battery).\nDepending on your device resource state, the sync may be deferred by the operating system.</string>
     <string name="settings_background_fdroid_sync_mode_real_time">Optimized for real time</string>
-    <string name="settings_background_fdroid_sync_mode_real_time_description">Riot will sync in background periodically at precise time (configurable).\nThis will impact radio and battery usage, there will be a permanent notification displayed stating that riot is listening for events.</string>
+    <string name="settings_background_fdroid_sync_mode_real_time_description">RPG Chat will sync in background periodically at precise time (configurable).\nThis will impact radio and battery usage, there will be a permanent notification displayed stating that RPG Chat is listening for events.</string>
     <string name="settings_background_fdroid_sync_mode_disabled">No background sync</string>
     <string name="settings_background_fdroid_sync_mode_disabled_description">You will not be notified of incoming messages when the app is in background.</string>
     <string name="settings_background_sync_update_error">Failed to update settings.</string>
@@ -1520,7 +1520,7 @@ Get a free account today!</string>
     <string name="identity_server_not_defined">You are not using any Identity Server</string>
     <string name="identity_server_not_defined_for_password_reset">No identity server is configured, it is required to reset your password.</string>
 
-    <string name="security_warning_identity_server">"Previous versions of Riot had a security bug which could give your Identity Server (%1$s) access to your account. If you trust %2$s, you can ignore this; otherwise please logout and login again.\n\nRead more details here:\nhttps://medium.com/@RiotChat/36b4792ea0d6"</string>
+    <string name="security_warning_identity_server">"Previous versions of RPG Chat had a security bug which could give your Identity Server (%1$s) access to your account. If you trust %2$s, you can ignore this; otherwise please logout and login again.\n\nRead more details here:\nhttps://medium.com/@RiotChat/36b4792ea0d6"</string>
 
     <string name="error_user_already_logged_in">It looks like you’re trying to connect to another homeserver. Do you want to sign out?</string>
 
@@ -1786,7 +1786,7 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
     <string name="content_reported_as_inappropriate_title">"Reported as inappropriate"</string>
     <string name="content_reported_as_inappropriate_content">"This content was reported as inappropriate.\n\nIf you don't want to see any more content from this user, you can block him to hide his messages"</string>
 
-    <string name="permissions_rationale_msg_keys_backup_export">Riot needs permission to save your E2E keys on disk.\n\nPlease allow access on the next pop-up to be able to export your keys manually.</string>
+    <string name="permissions_rationale_msg_keys_backup_export">RPG Chat needs permission to save your E2E keys on disk.\n\nPlease allow access on the next pop-up to be able to export your keys manually.</string>
 
     <string name="no_network_indicator">There is no network connection right now</string>
 
@@ -1812,15 +1812,15 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
     <string name="room_join_rules_invite">%1$s made the room invite only.</string>
     <string name="timeline_unread_messages">Unread messages</string>
 
-    <string name="login_splash_title">Liberate your communication</string>
-    <string name="login_splash_text1">Chat with people directly or in groups</string>
-    <string name="login_splash_text2">Keep conversations private with encryption</string>
-    <string name="login_splash_text3">Extend &amp; customise your experience</string>
+    <string name="login_splash_title">RPG Chat — roleplaying community</string>
+    <string name="login_splash_text1">Chat with other writers &amp; storytellers</string>
+    <string name="login_splash_text2">Focused on privacy &amp; security</string>
+    <string name="login_splash_text3">Special features for text-based roleplaying</string>
     <string name="login_splash_submit">Get started</string>
 
     <string name="login_server_title">Select a server</string>
     <string name="login_server_text">Just like email, accounts have one home, although you can talk to anyone</string>
-    <string name="login_server_matrix_org_text">Join millions free on the largest public server</string>
+    <string name="login_server_matrix_org_text">Use your all-lowercase RPG username</string>
     <string name="login_server_modular_text">Premium hosting for organisations</string>
     <string name="login_server_modular_learn_more">Learn more</string>
     <string name="login_server_other_title">Other</string>
@@ -1828,11 +1828,11 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
 
     <string name="login_continue">Continue</string>
     <!-- Replaced string is the homeserver url -->
-    <string name="login_connect_to">Connect to %1$s</string>
+    <string name="login_connect_to">Sign in to %1$s</string>
     <string name="login_connect_to_modular">Connect to Modular</string>
     <string name="login_connect_to_a_custom_server">Connect to a custom server</string>
     <!-- Replaced string is the homeserver url -->
-    <string name="login_signin_to">Sign in to %1$s</string>
+    <string name="login_signin_to">Login to %1$s</string>
     <string name="login_signup">Sign Up</string>
     <string name="login_signin">Sign In</string>
     <string name="login_signin_sso">Continue with SSO</string>
@@ -1840,19 +1840,19 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
     <string name="login_server_url_form_modular_hint">Modular Address</string>
     <string name="login_server_url_form_other_hint">Address</string>
     <string name="login_server_url_form_modular_text">Premium hosting for organisations</string>
-    <string name="login_server_url_form_modular_notice">Enter the address of the Modular Riot or Server you want to use</string>
-    <string name="login_server_url_form_other_notice">Enter the address of a server or a Riot you want to connect to</string>
+    <string name="login_server_url_form_modular_notice">Enter the address of the server you want to use</string>
+    <string name="login_server_url_form_other_notice">Enter the address of the server you want to connect to</string>
 
     <string name="login_sso_error_message">An error occurred when loading the page: %1$s (%2$d)</string>
     <string name="login_mode_not_supported">The application is not able to signin to this homeserver. The homeserver supports the following signin type(s): %1$s.\n\nDo you want to signin using a web client?</string>
     <string name="login_registration_disabled">Sorry, this server isn’t accepting new accounts.</string>
     <string name="login_registration_not_supported">The application is not able to create an account on this homeserver.\n\nDo you want to signup using a web client?</string>
 
-    <string name="login_login_with_email_error">This email is not associated to any account.</string>
+    <string name="login_login_with_email_error">This email is not associated with any account.</string>
 
     <!-- Replaced string is the homeserver url -->
     <string name="login_reset_password_on">Reset password on %1$s</string>
-    <string name="login_reset_password_notice">A verification email will be sent to your inbox to confirm setting your new password.</string>
+    <string name="login_reset_password_notice">A verification email will be sent to your inbox to confirm setting your new password.  Please note that this will NOT change your RPG site password, which will still work to access your account here on RPG Chat.</string>
     <string name="login_reset_password_submit">Next</string>
     <string name="login_reset_password_email_hint">Email</string>
     <string name="login_reset_password_password_hint">New password</string>
@@ -1902,7 +1902,8 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
 
     <!-- Replaced string is the homeserver url -->
     <string name="login_signup_to">Sign up to %1$s</string>
-    <string name="login_signin_username_hint">Username or email</string>
+    <string name="login_signin_username_hint">Username</string>
+    <!-- <string name="login_signin_username_hint">Username or email</string> -->
     <string name="login_signup_username_hint">Username</string>
     <string name="login_signup_password_hint">Password</string>
     <string name="login_signup_submit">Next</string>
@@ -1948,7 +1949,7 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
     <string name="soft_logout_clear_data_dialog_content">Clear all data currently stored on this device?\nSign in again to access your account data and messages.</string>
     <string name="soft_logout_clear_data_dialog_e2e_warning_content">You’ll lose access to secure messages unless you sign in to recover your encryption keys.</string>
     <string name="soft_logout_clear_data_dialog_submit">Clear data</string>
-    <string name="soft_logout_sso_not_same_user_error">The current session is for user %1$s and you provide credentials for user %2$s. This is not supported by RiotX.\nPlease first clear data, then sign in again on another account.</string>
+    <string name="soft_logout_sso_not_same_user_error">The current session is for user %1$s and you provide credentials for user %2$s. This is not supported by RPG Chat.\nPlease first clear data, then sign in again on another account.</string>
 
     <string name="permalink_malformed">Your matrix.to link was malformed</string>
     <string name="bug_report_error_too_short">The description is too short</string>
@@ -1970,7 +1971,7 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
     <string name="autocomplete_limited_results">Showing only the first results, type more letters…</string>
 
     <string name="settings_developer_mode_fail_fast_title">Fail-fast</string>
-    <string name="settings_developer_mode_fail_fast_summary">RiotX may crash more often when an unexpected error occurs</string>
+    <string name="settings_developer_mode_fail_fast_summary">RPG Chat may crash more often when an unexpected error occurs</string>
 
     <string name="command_description_verify">Request to verify the given userID</string>
     <string name="command_description_shrug">Prepends ¯\\_(ツ)_/¯ to a plain-text message</string>
@@ -2054,9 +2055,9 @@ Not all features on RPG are implemented in RPG Chat yet. Main missing (and comin
 
     <string name="room_member_jump_to_read_receipt">Jump to read receipt</string>
 
-    <string name="rendering_event_error_type_of_event_not_handled">"RiotX does not handle events of type '%1$s'"</string>
-    <string name="rendering_event_error_type_of_message_not_handled">"RiotX does not handle message of type '%1$s'"</string>
-    <string name="rendering_event_error_exception">"RiotX encountered an issue when rendering content of event with id '%1$s'"</string>
+    <string name="rendering_event_error_type_of_event_not_handled">"RPG Chat does not handle events of type '%1$s'"</string>
+    <string name="rendering_event_error_type_of_message_not_handled">"RPG Chat does not handle message of type '%1$s'"</string>
+    <string name="rendering_event_error_exception">"RPG Chat encountered an issue when rendering content of event with id '%1$s'"</string>
 
     <string name="unignore">Unignore</string>
 

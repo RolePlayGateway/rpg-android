@@ -34,18 +34,18 @@ data class LoginViewState(
         @PersistState
         val serverType: ServerType = ServerType.MatrixOrg,
         @PersistState
-        val signMode: SignMode = SignMode.Unknown,
+        val signMode: SignMode = SignMode.SignIn,
         @PersistState
         val resetPasswordEmail: String? = null,
         @PersistState
-        val homeServerUrl: String? = null,
+        val homeServerUrl: String? = "https://chat.roleplaygateway.com",
         // For SSO session recovery
         @PersistState
         val deviceId: String? = null,
 
         // Network result
         @PersistState
-        val loginMode: LoginMode = LoginMode.Unknown,
+        val loginMode: LoginMode = LoginMode.Password,
         @PersistState
         // Supported types for the login. We cannot use a sealed class for LoginType because it is not serializable
         val loginModeSupportedTypes: List<String> = emptyList()

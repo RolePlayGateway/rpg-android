@@ -41,7 +41,7 @@ class LoginServerSelectionFragment @Inject constructor() : AbstractLoginFragment
 
     private fun updateSelectedChoice(state: LoginViewState) {
         state.serverType.let {
-            loginServerChoiceMatrixOrg.isChecked = it == ServerType.MatrixOrg
+            loginServerChoiceMatrixOrg.isChecked = true // it == ServerType.MatrixOrg
             loginServerChoiceModular.isChecked = it == ServerType.Modular
             loginServerChoiceOther.isChecked = it == ServerType.Other
         }

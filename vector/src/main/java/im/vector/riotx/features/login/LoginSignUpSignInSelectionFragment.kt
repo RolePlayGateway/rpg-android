@@ -35,9 +35,9 @@ class LoginSignUpSignInSelectionFragment @Inject constructor() : AbstractLoginFr
     private fun setupUi(state: LoginViewState) {
         when (state.serverType) {
             ServerType.MatrixOrg -> {
-                loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_matrix_org)
-                loginSignupSigninServerIcon.isVisible = true
-                loginSignupSigninTitle.text = getString(R.string.login_connect_to, state.homeServerUrl.toReducedUrl())
+                loginSignupSigninServerIcon.setImageResource(R.drawable.roleplaygateway)
+                loginSignupSigninServerIcon.isVisible = false
+                loginSignupSigninTitle.text = getString(R.string.login_connect_to, "RPG")
                 loginSignupSigninText.text = getString(R.string.login_server_matrix_org_text)
             }
             ServerType.Modular   -> {
