@@ -18,9 +18,9 @@ package im.vector.riotx.features.settings
 
 object VectorSettingsUrls {
 
-    const val COPYRIGHT = "https://riot.im/copyright"
-    const val TAC = "https://riot.im/tac"
-    const val PRIVACY_POLICY = "https://riot.im/privacy"
+    const val COPYRIGHT = "https://www.roleplaygateway.com/about"
+    const val TAC = "https://www.roleplaygateway.com/rules"
+    const val PRIVACY_POLICY = "https://www.roleplaygateway.com/about"
     const val THIRD_PARTY_LICENSES = "file:///android_asset/open_source_licenses.html"
 
 }
