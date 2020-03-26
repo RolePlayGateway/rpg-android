@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "912726360885",
-    "firebase_url": "https://vector-alpha.firebaseio.com",
-    "project_id": "vector-alpha",
-    "storage_bucket": "vector-alpha.appspot.com"
+    "project_number": "598453900973",
+    "firebase_url": "https://rpg-chat-android.firebaseio.com",
+    "project_id": "rpg-chat-android",
+    "storage_bucket": "rpg-chat-android.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:912726360885:android:4ef8f3a0021e774d",
+        "mobilesdk_app_id": "1:598453900973:android:60c7f0f1862343ab6bd824",
         "android_client_info": {
-          "package_name": "im.vector.riotx.debug"
+          "package_name": "com.roleplaygateway.chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "912726360885-e87n3jva9uoj4vbidvijq78ebg02asv2.apps.googleusercontent.com",
+          "client_id": "598453900973-cbnmmqu40bq3e9ad6f5dq9m76kqu3hgk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAFZX8IhIfgzdOZvxDP_ISO5WYoU7jmQ5c"
+          "current_key": "AIzaSyDJ70RLvrVvBgutLAF5Y7Lbqb8tHcR85pU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "912726360885-rsae0i66rgqt6ivnudu1pv4tksg9i8b2.apps.googleusercontent.com",
+              "client_id": "598453900973-cbnmmqu40bq3e9ad6f5dq9m76kqu3hgk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

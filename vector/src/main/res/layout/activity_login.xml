@@ -23,7 +23,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/riotx_logo" />
+                android:src="@drawable/roleplaygateway" />
 
             <TextView
                 android:id="@+id/riotx_no_registration_notice"
@@ -93,16 +93,18 @@
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/VectorTextInputLayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0px"
                 android:layout_marginTop="16dp"
-                android:hint="@string/settings_home_server">
+                android:hint="@string/settings_home_server"
+                android:visibility="invisible">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/homeServerField"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textUri"
-                    android:maxLines="1" />
+                    android:maxLines="1"
+                    android:visibility="invisible" />
 
             </com.google.android.material.textfield.TextInputLayout>
 

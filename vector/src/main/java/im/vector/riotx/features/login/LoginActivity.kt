@@ -71,7 +71,7 @@ class LoginActivity : VectorBaseActivity() {
         riotx_no_registration_notice.setTextWithColoredPart(R.string.riotx_no_registration_notice, R.string.riotx_no_registration_notice_colored_part)
 
         riotx_no_registration_notice.setOnClickListener {
-            openUrlInExternalBrowser(this@LoginActivity, "https://about.riot.im/downloads")
+            openUrlInExternalBrowser(this@LoginActivity, "https://www.roleplaygateway.com/ucp.php?mode=register#form")
         }
     }
 
